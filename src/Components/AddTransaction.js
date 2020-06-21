@@ -12,7 +12,7 @@ export function AddTransaction() {
     function onSubmit(e) {
         e.preventDefault();
 
-        if(amount!=0){
+        if(amount!==0){
             const newTransaction = {
                 id: new Date().getTime(),
                 description,
